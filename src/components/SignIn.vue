@@ -66,11 +66,11 @@ export default {
           }
         );
     },
-    OnGoogleAuthSuccess: function() {
+    OnGoogleAuthSuccess: function(idToken) {
       alert("pass");
     },
     OnGoogleAuthFail: function(error) {
-      console.log(error);
+      alert("Error: " + error.error);
     }
   }
 };
