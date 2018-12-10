@@ -66,12 +66,11 @@ export default {
           }
         );
     },
-    OnGoogleAuthSuccess: function(googleUser) {
-      const profile = googleUser.getBasicProfile();
-      this.$router.replace("dashboard");
+    OnGoogleAuthSuccess: function() {
+      alert("pass");
     },
-    OnGoogleAuthFail: function() {
-      alert(error.message);
+    OnGoogleAuthFail: function(error) {
+      console.log(error);
     }
   }
 };
