@@ -1,27 +1,12 @@
-# test-project
+# Vue + Firebase login (Both email and gmail)
 
-> A Vue.js project
+> Adapted from Aishwarya's example at https://codesandbox.io/s/l9jy9roxp9
 
-## Build Setup
+## Configuration
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1. change firebase.js
+2. change clientId under signin page
+3. https://console.developers.google.com/
+>Credentials
+>Under "OAuth 2.0 client IDs" click "Web client (auto created by Google Service)"
+"To be continued"
